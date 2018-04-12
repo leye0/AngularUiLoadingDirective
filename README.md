@@ -23,6 +23,8 @@ Directive to display a loading state on specific elements of your UI.
 <button (click)="fetchHero()">GO</button>
 ```
 
+TODO - Example in code. (Use observable with delays.)
+
 ### Configuration
 TODO
 
