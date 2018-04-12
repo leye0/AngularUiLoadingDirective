@@ -13,10 +13,10 @@ Directive to display a loading state on specific elements of your UI.
 ```html
 <!-- In a component, set the uiLoading directive value to the name of an action (observable or subscription) -->
 <!-- that has been added by the uiLoadingService -->
-<div [uiLoading]="fetchingHeroes">
+<div [uiLoading]="fetchingList1">
   <app-item [ngFor]="item of list1" [model]="item"></app-item>
 </div>
-<div [uiLoading]="fetchingHeroes">
+<div [uiLoading]="fetchingList2">
   <app-item [ngFor]="item of list2" [model]="item"></app-item>
 </div>
 
